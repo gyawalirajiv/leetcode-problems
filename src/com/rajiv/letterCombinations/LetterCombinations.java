@@ -5,19 +5,18 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+//https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 public class LetterCombinations {
-
 
     public static void main(String[] args) {
         System.out.println(letterCombinations("23"));
     }
 
-    public static List<String> letterCombinations(String digits) {
+    public static List<String> letterCombinations(String digits){
         if(digits.equals("")) return new ArrayList<>();
 
         List<String> output = new ArrayList<>();
         Map<Integer, String> map = new HashMap<>();
-
         map.put(2, "abc");
         map.put(3, "def");
         map.put(4, "ghi");
@@ -32,7 +31,7 @@ public class LetterCombinations {
     }
 
     public static void findCombinations(String current, String digits, List<String> output, Map<Integer, String> map){
-        if(current.length() == digits.length()) {
+        if(current.length() == digits.length()){
             output.add(current);
             return;
         }
@@ -42,8 +41,28 @@ public class LetterCombinations {
         int digit = Integer.parseInt(c + "");
         String[] possibleLetters = map.get(digit).split("");
 
-        for (String letter: possibleLetters) {
+        for(String letter: possibleLetters){
             findCombinations(current + letter, digits, output, map);
         }
     }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
