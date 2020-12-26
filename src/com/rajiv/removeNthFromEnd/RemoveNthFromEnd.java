@@ -1,5 +1,5 @@
 package com.rajiv.removeNthFromEnd;
-import com.company.helperClasses.ListNode;
+import com.rajiv.helperClasses.ListNode;
 
 //https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 public class RemoveNthFromEnd {

@@ -1,5 +1,5 @@
 package com.rajiv.palindromeLinkedList;
-import com.company.helperClasses.ListNode;
+import com.rajiv.helperClasses.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;

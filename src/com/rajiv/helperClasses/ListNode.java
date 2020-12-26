@@ -1,4 +1,4 @@
-package com.company.helperClasses;
+package com.rajiv.helperClasses;
 
 public class ListNode {
     public int val;

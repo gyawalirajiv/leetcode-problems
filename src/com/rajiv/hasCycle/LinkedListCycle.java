@@ -1,5 +1,5 @@
 package com.rajiv.hasCycle;
-import com.company.helperClasses.ListNode;
+import com.rajiv.helperClasses.ListNode;
 
 public class LinkedListCycle {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package com.company.addTwoNumbers;
+package com.rajiv.addTwoNumbers;
 
-import com.company.helperClasses.ListNode;
+import com.rajiv.helperClasses.ListNode;
 
 import java.math.BigInteger;
 

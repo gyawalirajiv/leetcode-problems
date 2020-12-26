@@ -1,6 +1,6 @@
 package com.rajiv.reverseLinkedList;
 
-import com.company.helperClasses.ListNode;
+import com.rajiv.helperClasses.ListNode;
 
 public class ReverseLinkedList {
     public static void main(String[] args) {

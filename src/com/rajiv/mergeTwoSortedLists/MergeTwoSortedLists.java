@@ -1,5 +1,5 @@
 package com.rajiv.mergeTwoSortedLists;
-import com.company.helperClasses.ListNode;
+import com.rajiv.helperClasses.ListNode;
 
 public class MergeTwoSortedLists {
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
 package com.rajiv.getIntersectionNode;
-import com.company.helperClasses.ListNode;
+import com.rajiv.helperClasses.ListNode;
 
 public class IntersectionOfTwoLinkedLists {
     public static void main(String[] args) {
